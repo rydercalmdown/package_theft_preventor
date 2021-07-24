@@ -1,0 +1,8 @@
+**/*.jpeg
+**/*.jpg
+**/*.png
+**/.DS_Store
+**/env
+**/*.pyc
+training/data
+training/data_reviewed
