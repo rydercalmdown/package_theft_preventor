@@ -126,6 +126,7 @@ class PackageSentry():
         while True:
             self._check_frame()
 
+
 def main():
     """Run app"""
     try:
