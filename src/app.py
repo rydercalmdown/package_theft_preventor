@@ -57,7 +57,7 @@ class PackageSentry():
         self.system_armed = False
 
     def activate_alarm(self):
-        """A theft has occured, activate the alarm"""
+        """A theft has occurred, activate the alarm"""
         if self.alarm_is_active:
             return
         logging.info('Activating Alarm')
@@ -121,7 +121,7 @@ class PackageSentry():
                 self._package_not_detected()
 
     def watch(self):
-        """Watch for theives and act accordingly"""
+        """Watch for thieves and act accordingly"""
         logging.info('System watching')
         while True:
             self._check_frame()
