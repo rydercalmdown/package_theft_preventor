@@ -22,7 +22,7 @@ class FaceRecognizer():
                 self.known_faces.append(encoding[0])
 
     def known_face_detected(self, frame):
-        """Retuns bool if a known face is detected"""
+        """Returns bool if a known face is detected"""
         faces_detected = face_recognition.face_encodings(frame)
         if len(faces_detected) > 0:
             unknown = face_recognition.face_encodings(frame)[0]
