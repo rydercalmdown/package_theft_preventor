@@ -3,7 +3,6 @@ import os
 from classifier import Classifier
 from rtsparty import Stream
 from recognizer import FaceRecognizer
-import cv2
 import logging
 import requests
 import sys
